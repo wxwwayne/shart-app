@@ -11,6 +11,7 @@
     </div>
   <% end %>
 
+  <div class="shart_form">
   <fieldset>
   <legend>Enter User Information</legend>
   <div class="field">
@@ -24,9 +25,10 @@
   <div>
     <%= f.label :password_confirmation,"Confirm:" %><br>
     <%= f.password_field :password_confirmation, size: 40 %>
-  </div>
+  </div><br/>
   <div class="actions">
     <%= f.submit %>
   </div>
   </fieldset>
+  </div>
 <% end %>
